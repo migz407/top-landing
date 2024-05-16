@@ -98,7 +98,7 @@ body {
     background-color:white;
     border: solid #3882F6;
     border-width: 3px;
-    border-radius: 8px;
+    border-radius: 9px;
     width: 120px;
     height: 120px;
     color: white;
@@ -113,7 +113,23 @@ body {
 
 .body2 {
     background-color: #E5E7EB;
+    padding: 85px;
 }
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#signature {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
 
 .footer {
     background-color: #1F2937;
